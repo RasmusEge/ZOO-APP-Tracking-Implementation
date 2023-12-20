@@ -1,10 +1,15 @@
 
 # CPH ZOO Consumer App tracking requirement document
 
-[**1. Table of content**](#members-&-user-permissions)<br/>
-[2 Introduction](#introduction)<br/>
+[**Table of content**](#members-&-user-permissions)<br/>
+[1 Introduction](#introduction)<br/>
 [2 Screen naming](#screen-naming)<br/>
-[3 Log in](#log-in)<br/>
+[3 Web view](#web-view)<br/>
+[4 Log in](#log-in)<br/>
+[5 Add Zoocard](#add-zoocard)<br/>
+[6 Remove Zoocard](#remove-zoocard)<br/>
+[7 Create account](#create-account)<br/>
+[8 Navigation click](#navigation-click)<br/>
 
 ## Introduction
 The following guide provide documentation for automatically collected events and will outline custom tracking specifications for the CPH ZOO App
@@ -32,7 +37,7 @@ window.datalayer.push({
 ````
 
 
-### Log in
+## Log in
 Whenever a user logs in:
 
 ![image](https://github.com/RasmusEge/ZOO-APP-Tracking-Implementation/assets/93127486/4a8a4119-f226-4ac1-b908-912665ece561)
@@ -46,7 +51,7 @@ Analytics.logEvent("login", parameters: [
 ])
 ```
 
-### Add zoo card
+### Add zoocard
 Whenever a user clicks on "Tilføj zookort" (Add zoo card):
 
 ![image](https://github.com/RasmusEge/ZOO-APP-Tracking-Implementation/assets/93127486/8650f248-6c60-456e-ae2e-b96c34874b86)
@@ -55,7 +60,7 @@ Whenever a user clicks on "Tilføj zookort" (Add zoo card):
 Analytics.logEvent("add_zoo_card")
 ```
 
-### Remove zoo card
+### Remove zoocard
 Whenever a user clicks on ""Ja, fjern" (Yes, remove):
 
 ![image](https://github.com/RasmusEge/ZOO-APP-Tracking-Implementation/assets/93127486/fe585856-3790-4e44-a0e3-daad3bc1675e)
