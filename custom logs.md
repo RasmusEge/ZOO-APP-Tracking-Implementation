@@ -9,3 +9,4 @@ https://support.google.com/analytics/answer/9234069?hl=en
 
 
 
+![image](https://github.com/RasmusEge/ZOO-APP-Tracking-Implementation/assets/122262884/71ec7608-1499-47eb-9ef0-751dbd9a1d6f)
